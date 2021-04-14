@@ -23,7 +23,7 @@
         //             }
         //           });
 
-        var hc = smart.request({
+        var hc = smart.patient.api.fetch({
           url: 'Patient/' + patientId + '/$health-cards-issue',
           body: { 
             "resourceType": "Parameters",
