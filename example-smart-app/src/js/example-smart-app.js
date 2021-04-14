@@ -25,6 +25,7 @@
 
         var hc = smart.patient.api.fetchAll({
           url: 'Patient/' + patientId + '/$health-cards-issue',
+          type: 'Patient',
           body: { 
             "resourceType": "Parameters",
             "parameter": [
